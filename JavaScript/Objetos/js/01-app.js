@@ -10,5 +10,7 @@ async function creacionObjeto() {
         disponible: true
     }
 
-    console.log("Objecto creado", obj)
+    console.log("Todo el objeto", obj)
+    console.log("Algo del objeto", obj.nombre)
+    console.log("Algo mas del objeto", obj['precio'])
 }
